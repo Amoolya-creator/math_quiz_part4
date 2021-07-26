@@ -1,0 +1,88 @@
+#heading {
+    text-align: center;
+    color: red;
+    font-size: 70px;
+    border: 15px ridge hotpink;
+    border-radius: 15px;
+    text-shadow: 5px 5px 15px gold;
+    background: white;
+    box-shadow: 10px 10px 10px teal, 5px 5px 15px inset goldenrod;
+}
+
+#heading:hover {
+    color: darkred;
+    text-shadow: 5px 5px 15px tomato;
+}
+
+body {
+    background: url(bg.jpg);
+}
+
+label {
+    background: rgb(47, 226, 47);
+    border-radius: 5px;
+    color: rgb(230, 21, 184);
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 1px 1px rgb(36, 12, 27);
+}
+
+label:hover {
+    background-color: green;
+}
+
+.row {
+    background: rgb(243, 217, 239);
+}
+
+input {
+    background: rgb(238, 233, 203);
+    border-radius: 5px;
+   
+}
+
+input:hover {
+    background-color: yellow;
+    box-shadow: 3px 3px 5px violet, 2px 2px 3px rgb(255, 0, 0);
+}
+
+#output {
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid darkviolet;
+    border-top: 10px solid #AA4465;
+    padding: 10px;
+    float: none;
+    text-align: center;
+    width: 50%;
+}
+
+#number_block {
+    background-image: linear-gradient(45deg,red 20%, gold,green,blue,violet);
+}
+
+#player_1_name,
+#player_2_name {
+    background-color: white;
+    color: red;
+    font: italic 20px sans-serif;
+}
+
+#player_1_score,
+#player_2_score {
+    background-color: white;
+    color: #3700ff;
+    font: bolder 20px serif;
+}
+
+#Turns {
+    background-image: linear-gradient(45deg, yellow, red);
+    border: 2px solid red;
+    border-radius: 5px;
+    max-width: 75%;
+    padding: 10px;
+}
+
+h4 {
+    color: rgb(49, 13, 18);
+}
